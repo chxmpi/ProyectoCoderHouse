@@ -131,6 +131,57 @@ footer a{
 color: white;
 }
 
+                            /*Playlist*/
+.contenedorGridP{
+width: 100%;
+height: auto;
+}
+.gridPlaylist{
+    display: grid;
+    grid-template-areas: 
+    "playlist1     playlist2    playlist3"
+    "playlist4     playlist5    playlist6";
+    margin: 10px;
+    row-gap: 15px;
+}
+.playlistRecomendadas{
+width:350px;
+border-radius: 5%;
+}
+
+.playlistDuki{
+grid-area: playlist1;
+display: flex;
+justify-content: center;
+}
+.playlistYsy{
+    grid-area: playlist2;
+    display: flex;
+    justify-content: center;
+}
+
+.playlistEladio{
+grid-area: playlist3;
+display: flex;
+justify-content: center;
+}
+.playlistBadbunny{
+grid-area: playlist4;
+display: flex;
+justify-content: center;
+}
+.playlistRels{
+grid-area: playlist5;
+display: flex;
+justify-content: center;
+}
+.playlistTrueno{
+grid-area: playlist6;
+display: flex;
+justify-content: center;
+}
+
+
                             /*Contacto*/
 .formulario{
 width: 100%;
