@@ -1,0 +1,182 @@
+
+
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+background-image: url(../img/fondoRepeat.png);
+}
+
+/*header*/
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:#080404;
+padding: 30px 10%;
+}
+
+header img{
+width: 10rem;
+height: auto;
+margin-right: auto;
+}
+
+
+/*nav*/
+
+.navbar ul{
+list-style: none;
+
+}
+
+.navbar ul li{
+display: inline-block;
+padding:0px 20px;
+}
+
+.navbar li a {
+color: white;
+transition: 0.5s;
+}
+.navbar li a:hover {
+color: #1ed760;
+}
+
+                        /*Inicio*/
+
+/*main*/
+.contenedorGridH{
+width: 100%;
+height: auto;
+}
+.gridHome{
+    display: grid;
+    grid-template-areas: 
+    "rels       duki        eladio"
+    "trueno     badbunny    ysy   ";
+    margin: 10px;
+    row-gap: 15px;
+}
+
+.rels{
+grid-area: rels;
+display: flex;
+justify-content:center ;
+}
+
+.duki{
+grid-area: duki;
+display: flex;
+justify-content:center ;
+}
+
+.eladio{
+grid-area: eladio;
+display: flex;
+justify-content:center ;
+}
+
+.trueno{
+grid-area: trueno;
+display: flex;
+justify-content:center ;
+}
+
+.badbunny{
+grid-area:badbunny ;
+display: flex;
+justify-content:center ;
+}
+
+.ysy{
+grid-area: ysy;
+display: flex;
+justify-content:center ;
+}
+
+
+main h1{
+text-align: center;
+font-size:60px;
+}
+
+.cancionesDestacadas{
+width:350px;
+border-radius: 5%;
+}
+                        /*Inicio*/
+/*aside*/
+
+
+
+/*footer*/
+
+footer{
+background-color:#080404 ;
+text-align: center;
+bottom: 0%;
+padding-bottom: 5px;
+width: 100%;
+color: white;
+}
+
+footer a{
+color: white;
+}
+
+                            /*Contacto*/
+.formulario{
+width: 100%;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.informacionFormulario{
+padding: 10px;
+
+}
+.informacionFormulario div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.informacionFormulario input{
+
+padding: 15px;
+text-align: center;
+border-radius: 5px;
+margin: 10px 0px ;
+transition: 0.5s;
+}
+.informacionFormulario input:hover{
+background-color: gainsboro; 
+}
+
+.informacionFormulario select{
+padding: 10px;
+text-align: center;
+border-radius: 5px;
+margin: 10px 0px ;
+transition: 0.5s;
+}
+
+.informacionFormulario select:hover{
+background-color: gainsboro; 
+}
+
+.btnFormulario{
+transition: 0.5s;
+}
+.btnFormulario:hover{
+background-color: gainsboro;
+}
+                            /*Contacto*/
