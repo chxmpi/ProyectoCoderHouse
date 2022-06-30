@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explorar</title>
     <link rel="shortcut icon" href="../assets/img/icono.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style.css">
     <script src="https://kit.fontawesome.com/8b2af7befb.js" crossorigin="anonymous"></script>
 </head>
@@ -15,24 +16,65 @@
         <a href="../index.html"> <img src="../assets/img/logo2.png" alt="logo spotify"></a>
         <nav class="navbar">
             <ul>
-                <li><a href="..iIndex.html">Inicio</a></li>
-                <li><a href="./recomendados.html">Recomendados</a></li>
-                <li><a href="./explorar.html">Explorar</a></li>
-                <li><a href="./playlist.html">Playlist</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a class="text-decoration-none" href="../index.html">Inicio</a></li>
+                <li><a class="text-decoration-none" href="./recomendados.html">Recomendados</a></li>
+                <li><a class="text-decoration-none" href="./explorar.html">Explorar</a></li>
+                <li><a class="text-decoration-none" href="./playlist.html">Playlist</a></li>
+                <li><a class="text-decoration-none" href="./contacto.html">Contacto</a></li>
             
             <ul>
         </nav>
       
     </header>
-    
-            <main>
-                <h1>Descubri nuevos gustos</h1>
+            <main class="mainCarusel container-fluid">
+                <h1>DESCUBRI NUEVOS GUSTOS</h1>
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                    <div class="carousel-inner">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <div class="carousel-item active img-fluid ">
+                       <a href="https://open.spotify.com/track/0SbyfCu03v4d6fLqjlBdQ4?si=206c9a49612443d7"> <img src="../assets/img/vidaderockDuki.jpg" class="d-block w-100" alt="vida de rock"></a>
+                       <div class="carousel-caption d-none d-md-block outline ">
+                        <h5>VIDA DE ROCK</h5>
+                        <p>Duki - 30 OCT 2020</p>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                       <a href="https://open.spotify.com/track/2as7AQfl3uoUbNazMXDKFC?si=098efc9d24a64fbe"> <img src="../assets/img/hidroYsya.jpg" class="d-block w-100" alt="hidro"></a>
+                       <div class="carousel-caption d-none d-md-block outline ">
+                        <h5>HIDRO</h5>
+                        <p >YSY A - 11 NOV 2018</p>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://open.spotify.com/artist/3IYKcXI1sFqT1ZtfyoW55C?si=09282c7ff3984a37"> <img src="../assets/img/leitiKnak.jpg" class="d-block w-100" alt="leiti Knak"></a>
+                        <div class="carousel-caption d-none d-md-block outline">
+                            <h5>KNAK - LEITI</h5>
+                            <p >11 JUN 2022</p>
+                          </div>
+                       </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span> 
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </main>
        
         <footer>
             <p>©2022 Franco Adorante, todos los derechos reservados</p>
-            <a href="../pages/contacto.html">Contacto</a>
+            <a class="text-decoration-none" href="../pages/contacto.html">Contacto</a>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
