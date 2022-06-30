@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -109,7 +110,7 @@ main h1 {
 /*Inicio*/
 /*Exlporar*/
 .mainCarusel {
-  width: 90vh;
+  width: 700px;
   height: auto;
   margin-bottom: 15px;
 }
@@ -119,7 +120,7 @@ main h1 {
 .outline {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-  1px 1px 0 #000;
+    1px 1px 0 #000;
 }
 /*Exlporar*/
 /*footer*/
@@ -189,49 +190,7 @@ footer a {
 /*Playlist*/
 
 /*Contacto*/
-.formulario {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.informacionFormulario {
-  padding: 10px;
-}
-.informacionFormulario div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.informacionFormulario input {
-  padding: 15px;
-  text-align: center;
-  border-radius: 5px;
-  margin: 10px 0px;
-  transition: 0.5s;
-}
-.informacionFormulario input:hover {
-  background-color: gainsboro;
-}
-
-.informacionFormulario select {
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-  margin: 10px 0px;
-  transition: 0.5s;
-}
-
-.informacionFormulario select:hover {
-  background-color: gainsboro;
-}
-
-.btnFormulario {
-  transition: 0.5s;
-}
-.btnFormulario:hover {
-  background-color: gainsboro;
+.contactoBoostrap{
+  margin: 15px 60px;
 }
 /*Contacto*/
