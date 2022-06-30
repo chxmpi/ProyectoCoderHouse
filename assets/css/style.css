@@ -1,239 +1,237 @@
-
-
-*{
-margin: 0;
-padding: 0;
-text-decoration: none;
-box-sizing: border-box;
-font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-background-image: url(../img/fondoRepeat.png);
+body {
+  background-image: url(../img/fondoRepeat.png);
 }
 
 /*header*/
 
-header{
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color:#080404;
-padding: 30px 10%;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #080404;
+  padding: 30px 10%;
 }
 
-header img{
-width: 10rem;
-height: auto;
-margin-right: auto;
+header img {
+  width: 10rem;
+  height: auto;
+  margin-right: auto;
 }
-
 
 /*nav*/
 
-.navbar ul{
-list-style: none;
-
+.navbar ul {
+  list-style: none;
 }
 
-.navbar ul li{
-display: inline-block;
-padding:0px 20px;
+.navbar ul li {
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .navbar li a {
-color: white;
-transition: 0.5s;
+  color: white;
+  transition: 0.5s;
 }
 .navbar li a:hover {
-color: #1ed760;
+  color: #1ed760;
 }
 
-                        /*Inicio*/
+/*Inicio*/
 
 /*main*/
-.contenedorGridH{
-width: 100%;
-height: auto;
+.contenedorGridH {
+  width: 100%;
+  height: auto;
 }
-.gridHome{
-    display: grid;
-    grid-template-areas: 
+.gridHome {
+  display: grid;
+  grid-template-areas:
     "rels       duki        eladio"
     "trueno     badbunny    ysy   ";
-    margin: 10px;
-    row-gap: 15px;
+  margin: 10px;
+  row-gap: 15px;
 }
 
-.rels{
-grid-area: rels;
-display: flex;
-justify-content:center ;
+.rels {
+  grid-area: rels;
+  display: flex;
+  justify-content: center;
 }
 
-.duki{
-grid-area: duki;
-display: flex;
-justify-content:center ;
+.duki {
+  grid-area: duki;
+  display: flex;
+  justify-content: center;
 }
 
-.eladio{
-grid-area: eladio;
-display: flex;
-justify-content:center ;
+.eladio {
+  grid-area: eladio;
+  display: flex;
+  justify-content: center;
 }
 
-.trueno{
-grid-area: trueno;
-display: flex;
-justify-content:center ;
+.trueno {
+  grid-area: trueno;
+  display: flex;
+  justify-content: center;
 }
 
-.badbunny{
-grid-area:badbunny ;
-display: flex;
-justify-content:center ;
+.badbunny {
+  grid-area: badbunny;
+  display: flex;
+  justify-content: center;
 }
 
-.ysy{
-grid-area: ysy;
-display: flex;
-justify-content:center ;
+.ysy {
+  grid-area: ysy;
+  display: flex;
+  justify-content: center;
 }
 
-
-main h1{
-text-align: center;
-font-size:60px;
+main h1 {
+  text-align: center;
+  font-size: 60px;
 }
 
-.cancionesDestacadas{
-width:350px;
-border-radius: 5%;
+.cancionesDestacadas {
+  width: 350px;
+  border-radius: 5%;
 }
-                        /*Inicio*/
-                        /*Exlporar*/
-.mainCarusel{
-width: 90vh;
-height:auto;
+/*Inicio*/
+/*Exlporar*/
+.mainCarusel {
+  width: 90vh;
+  height: auto;
+  margin-bottom: 15px;
 }
-.outline{
-color: white;  
- text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+.borderCarusel {
+  border: 3px solid;
 }
-                        /*Exlporar*/
+.outline {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+/*Exlporar*/
 /*footer*/
 
-footer{
-background-color:#080404 ;
-text-align: center;
-bottom: 0%;
-padding-bottom: 5px;
-width: 100%;
-color: white;
+footer {
+  background-color: #080404;
+  text-align: center;
+  bottom: 0%;
+  padding-bottom: 5px;
+  width: 100%;
+  color: white;
 }
 
-footer a{
-color: white;
+footer a {
+  color: white;
 }
 
-                            /*Playlist*/
-.contenedorGridP{
-width: 100%;
-height: auto;
+/*Playlist*/
+.contenedorGridP {
+  width: 100%;
+  height: auto;
 }
-.gridPlaylist{
-    display: grid;
-    grid-template-areas: 
+.gridPlaylist {
+  display: grid;
+  grid-template-areas:
     "playlist1     playlist2    playlist3"
     "playlist4     playlist5    playlist6";
-    margin: 10px;
-    row-gap: 15px;
+  margin: 10px;
+  row-gap: 15px;
 }
-.playlistRecomendadas{
-width:350px;
-border-radius: 5%;
-}
-
-.playlistDuki{
-grid-area: playlist1;
-display: flex;
-justify-content: center;
-}
-.playlistYsy{
-    grid-area: playlist2;
-    display: flex;
-    justify-content: center;
+.playlistRecomendadas {
+  width: 350px;
+  border-radius: 5%;
 }
 
-.playlistEladio{
-grid-area: playlist3;
-display: flex;
-justify-content: center;
+.playlistDuki {
+  grid-area: playlist1;
+  display: flex;
+  justify-content: center;
 }
-.playlistBadbunny{
-grid-area: playlist4;
-display: flex;
-justify-content: center;
-}
-.playlistRels{
-grid-area: playlist5;
-display: flex;
-justify-content: center;
-}
-.playlistTrueno{
-grid-area: playlist6;
-display: flex;
-justify-content: center;
-}
-                            /*Playlist*/
-
-                            /*Contacto*/
-.formulario{
-width: 100%;
-display: flex;
-flex-direction: column;
-text-align: center;
+.playlistYsy {
+  grid-area: playlist2;
+  display: flex;
+  justify-content: center;
 }
 
-.informacionFormulario{
-padding: 10px;
+.playlistEladio {
+  grid-area: playlist3;
+  display: flex;
+  justify-content: center;
+}
+.playlistBadbunny {
+  grid-area: playlist4;
+  display: flex;
+  justify-content: center;
+}
+.playlistRels {
+  grid-area: playlist5;
+  display: flex;
+  justify-content: center;
+}
+.playlistTrueno {
+  grid-area: playlist6;
+  display: flex;
+  justify-content: center;
+}
+/*Playlist*/
 
-}
-.informacionFormulario div{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.informacionFormulario input{
-
-padding: 15px;
-text-align: center;
-border-radius: 5px;
-margin: 10px 0px ;
-transition: 0.5s;
-}
-.informacionFormulario input:hover{
-background-color: gainsboro; 
-}
-
-.informacionFormulario select{
-padding: 10px;
-text-align: center;
-border-radius: 5px;
-margin: 10px 0px ;
-transition: 0.5s;
-}
-
-.informacionFormulario select:hover{
-background-color: gainsboro; 
+/*Contacto*/
+.formulario {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.btnFormulario{
-transition: 0.5s;
+.informacionFormulario {
+  padding: 10px;
 }
-.btnFormulario:hover{
-background-color: gainsboro;
+.informacionFormulario div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-                            /*Contacto*/
+.informacionFormulario input {
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px 0px;
+  transition: 0.5s;
+}
+.informacionFormulario input:hover {
+  background-color: gainsboro;
+}
+
+.informacionFormulario select {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px 0px;
+  transition: 0.5s;
+}
+
+.informacionFormulario select:hover {
+  background-color: gainsboro;
+}
+
+.btnFormulario {
+  transition: 0.5s;
+}
+.btnFormulario:hover {
+  background-color: gainsboro;
+}
+/*Contacto*/
