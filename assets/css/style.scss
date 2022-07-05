@@ -1,3 +1,5 @@
+@import "variables";
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
 * {
   margin: 0;
@@ -22,17 +24,20 @@ header img {
   margin-right: auto;
 }
 
+
 /*nav*/
+
+
 .navbar-ul {
   display: flex;
   flex-direction: row;
 }
 
+
 .navbar li a {
   color: white;
   transition: 0.5s;
 }
-
 .navbar li a:hover {
   color: #1ed760;
 }
@@ -42,15 +47,17 @@ header img {
 }
 
 /*Inicio*/
+
 .contenedorGridH {
   margin-top: 25px;
   width: 100%;
   height: auto;
 }
-
 .gridHome {
   display: grid;
-  grid-template-areas: "rels       duki        eladio" "trueno     badbunny    ysy   ";
+  grid-template-areas:
+    "rels       duki        eladio"
+    "trueno     badbunny    ysy   ";
   margin: 10px;
   row-gap: 15px;
 }
@@ -101,26 +108,28 @@ main h1 {
   border-radius: 5%;
 }
 
-/* 
+
 
 /*Inicio*/
 /*Exlporar*/
+
+
 .mainCarusel {
   width: 700px;
   height: auto;
 }
-
 .borderCarusel {
   border: 3px solid;
 }
-
 .outline {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 /*Exlporar*/
 /*footer*/
+
 footer {
   background-color: #080404;
   text-align: center;
@@ -132,21 +141,20 @@ footer {
 
 footer a {
   color: white;
-}
-
+} */
 /*Playlist*/
 .contenedorGridP {
   width: 100%;
   height: auto;
 }
-
 .gridPlaylist {
   display: grid;
-  grid-template-areas: "playlist1     playlist2    playlist3" "playlist4     playlist5    playlist6";
+  grid-template-areas:
+    "playlist1     playlist2    playlist3"
+    "playlist4     playlist5    playlist6";
   margin: 10px;
   row-gap: 15px;
 }
-
 .playlistRecomendadas {
   width: 350px;
   border-radius: 5%;
@@ -157,7 +165,6 @@ footer a {
   display: flex;
   justify-content: center;
 }
-
 .playlistYsy {
   grid-area: playlist2;
   display: flex;
@@ -169,57 +176,59 @@ footer a {
   display: flex;
   justify-content: center;
 }
-
 .playlistBadbunny {
   grid-area: playlist4;
   display: flex;
   justify-content: center;
 }
-
 .playlistRels {
   grid-area: playlist5;
   display: flex;
   justify-content: center;
 }
-
 .playlistTrueno {
   grid-area: playlist6;
   display: flex;
   justify-content: center;
 }
-
 /*Playlist*/
+
 /*Contacto*/
 .contactoBoostrap {
   margin: 15px 60px;
 }
-
 /*Contacto*/
+
+
+
 /*media*/
+
 @media (max-width: 425px) {
   .navbar-toggler {
     display: flex;
   }
-
-  .navbar-ul {
-    display: none;
+  .navbar-ul{
+  display: none;
   }
 }
+
+
 @media (max-width: 425px) {
   .cancionesDestacadas {
     width: 160px;
   }
-
   .contenedorGridH {
     margin-top: 15px;
     width: 100%;
     height: auto;
   }
-
   .gridHome {
     display: grid;
-    grid-template-areas: "rels       duki    " "eladio      ysy     " "trueno     badbunny ";
+    grid-template-areas:
+      "rels       duki    "
+      "eladio      ysy     "
+      "trueno     badbunny ";
     margin: 5px;
     row-gap: 5px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
