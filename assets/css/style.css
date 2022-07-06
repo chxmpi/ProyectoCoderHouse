@@ -104,6 +104,22 @@ main h1 {
 /* 
 
 /*Inicio*/
+/*Recomendadosr*/
+.contenedorVideoR{
+display: flex;
+justify-content: center;
+margin: 15px;
+}
+.tituloChopper{
+  display: flex;
+  justify-content: center;
+}
+.chopperVideo{
+width: 600px;
+border-radius: 5%;
+}
+
+/*Recomendadosr*/
 /*Exlporar*/
 .mainCarusel {
   width: 700px;
@@ -116,7 +132,8 @@ main h1 {
 
 .outline {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 /*Exlporar*/
@@ -212,8 +229,6 @@ footer a {
 
   .contenedorGridH {
     margin-top: 15px;
-    width: 100%;
-    height: auto;
   }
 
   .gridHome {
@@ -222,4 +237,52 @@ footer a {
     margin: 5px;
     row-gap: 5px;
   }
-}/*# sourceMappingURL=style.css.map */
+} 
+
+@media (max-width: 425px) {
+  .contenedorGridP {
+    margin-top: 15px;
+  }
+
+  .gridPlaylist {
+    display: grid;
+    grid-template-areas:
+      "playlist1    playlist2"
+      "playlist3    playlist4"
+      "playlist5    playlist6";
+    margin: 5px;
+    row-gap: 5px;
+  }
+  .playlistRecomendadas {
+    width: 160px;
+  }
+}
+
+@media(max-width: 425px){
+  .mainCarusel {
+    width: 350px;
+    height: auto;
+  }
+  
+  .borderCarusel {
+    border: 3px solid;
+  }
+}
+
+
+@media(max-width: 425px){
+  .contenedorVideoR{
+    margin: 15px;
+    }
+    .chopperVideo{
+    width: 350px;
+    border-radius: 5%;
+    }
+    
+    .tituloChopper{
+      font-size: 20px;
+    }
+
+}
+
+/*# sourceMappingURL=style.css.map */

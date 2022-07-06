@@ -24,15 +24,12 @@ header img {
   margin-right: auto;
 }
 
-
 /*nav*/
-
 
 .navbar-ul {
   display: flex;
   flex-direction: row;
 }
-
 
 .navbar li a {
   color: white;
@@ -108,11 +105,8 @@ main h1 {
   border-radius: 5%;
 }
 
-
-
 /*Inicio*/
 /*Exlporar*/
-
 
 .mainCarusel {
   width: 700px;
@@ -141,7 +135,8 @@ footer {
 
 footer a {
   color: white;
-} */
+}
+*/
 /*Playlist*/
 .contenedorGridP {
   width: 100%;
@@ -199,19 +194,16 @@ footer a {
 }
 /*Contacto*/
 
-
-
 /*media*/
 
 @media (max-width: 425px) {
   .navbar-toggler {
     display: flex;
   }
-  .navbar-ul{
-  display: none;
+  .navbar-ul {
+    display: none;
   }
 }
-
 
 @media (max-width: 425px) {
   .cancionesDestacadas {
